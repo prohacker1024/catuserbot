@@ -119,10 +119,10 @@ async def bot_start(event):  # sourcery skip: low-code-quality
                         \n\nPowered by [Annoymous Coder](https://t.me/Annoymouscoder)"
         buttons = [
             (
-                Button.url("Ask Anything", "https://openai.com"),
+                Button.url("Ask Anything", "https://chatgpt.com"),
                 Button.url(
-                    "Deploy",
-                    "https://github.com",
+                    "Need a Help ?",
+                    "https://telegra.ph/file/55120be5c4b26c6e19cad.jpg",
                 ),
             )
         ]
