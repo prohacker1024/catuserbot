@@ -113,16 +113,16 @@ async def bot_start(event):  # sourcery skip: low-code-quality
                 my_mention=my_mention,
             )
         else:
-            start_msg = f"Hey! 👤{mention},\
-                        \nI am {my_mention}'s assistant bot.\
-                        \nYou can contact to my master from here.\
-                        \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
+            start_msg = f"Hey!MF 👤{mention},\
+                        \nI am {my_mention}'s Assistant Bot.\
+                        \nYou can contact to My Master from here.\
+                        \n\nPowered by [Annoymous Coder](https://t.me/Annoymouscoder)"
         buttons = [
             (
-                Button.url("Repo", "https://github.com/TgCatUB/catuserbot"),
+                Button.url("Ask Anything", "https://openai.com"),
                 Button.url(
                     "Deploy",
-                    "https://github.com/TgCatUB/nekopack",
+                    "https://github.com",
                 ),
             )
         ]
